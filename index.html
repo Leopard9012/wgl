@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Schülerzeitung - Aktueller Artikel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Schülerzeitung <span style="opacity:.8;font-size:.85rem;">- DigiNews</span></h1>
+      <nav>
+        <a href="#">Start</a><a href="#">Schule</a><a href="#">Geschehen</a><a href="#">Kultur</a><a href="#">Meinung</a>
+      </nav>
+    </header>
+
+    <section class="main">
+      <article class="article">
+        <h2>Die Deutsche Wirtschaftskrise</h2>
+        <p>In diesem Abschnitt behandeln wir die zentralen Ursachen und Folgen der Wirtschaftskrise in Deutschland. Im Fokus stehen die Nachwirkungen des Versailler Vertrags und die schwierige Lage der Weimarer Republik nach dem Ersten Weltkrieg. Viele Menschen waren damals unzufrieden mit der politischen Führung, da hohe Reparationszahlungen, Inflation und Arbeitslosigkeit die Gesellschaft stark belasteten.</p>
+        <h3>Ein Einblick in die aktuellen Herausforderungen</h3>
+        <div class="meta">Autor: Lia, Julius, Mara, Leon | 17. März 2026 | Die Deutsche Wirtschaftskrise</div>
+        <img src="Bild.WEBP" alt="Wirtschaftskrise-Bild" />
+        <h4>Hauptteil 1</h4>
+        <div class="block">
+          <p>Der Versailler Vertrag zum Untergang der Waimarer Republik Die Bevölkerung in der Weimarer Republik war kurz nach dem ersten Weltkireg unzufrieden mit der demokratischen Regierung. Die Gründe dafür waren vielseitig. Unter anderem spielte der Versailler Vertrag die Außenpolitik und vieles mehr eine große Rolle. In der jungen weimarer Republik war die politische Lage recht angespannt. Die soziale Lage war sehr kritisch, da die Menschen aufgrund der Hyperinflation sehr arm waren. Sie vertrauten der Demokratie nicht und wandten sich immer mehr rechten Gruppierungen zu. Darunter auch der noch jungen NSDAP. Der Grund dafür liegt vorallem in den Nachfolgen des ersten Weltkrieg und des Versailler Vertrag. Da Deutschland nach dem Krieg mit Sanktionen Reperaturzahlungen und der Verkleinerung der Armnee belegt wurde und außerdem die Wehrpflicht abgeschafft wurde war die Bevölkerung sehr unzufrieden mit der demokratischen Regierung.</p>
+        </div>
+        <h4>Hauptteil 2</h4>
+        <p>Die Schuld am Krieg und die Inflation Deutschland und seine Verbündeten wurden von der Alliierten komplett für den Krieg verantwortlich gemacht und mit Reparationszahlungen sowie mit der "Wiedergutmachung" für die Kriegsverluste belegt. Durch diese enormen Reparaturzahlungen verlor die damalige deutsche Reichsmark stark an Wert. Dadurch war die Bevölkerung unzufrieden und verlor das Vertrauen in die Regierung. Viele Deutsche dachten, sie könnten den Krieg noch gewinnen und fühlten sich von der Regierung verraten.</p>
+
+        <h4>Hauptteil 3</h4>
+        <p>Durch die Inflation waren die Menschen arm. Sie klauten Bauern Lebensmittel. Der Monatslohn reichte manchmal nicht für ein Brot, und so sank das Vertrauen in die Regierung. Dazu kamen die Handelssanktionen, die Deutschland von den Alliierten auferlegt wurden.</p>
+        <p>Die Menschen forderten eine starke Regierung, die die Republik wieder in eine gute Zeit führen kann. Die rechten Parteien wie die NSDAP versprachen den Bürgern eine solche Regierung, weshalb der Zuspruch für diese Parteien stieg.</p>
+        <h4>Fazit</h4>
+        <p>Der steigende Zuspruch der rechten Parteien rund um die NSDAP wurde zur Gefahr für die Weimarer Republik und die Demokratie. Das begünstigte auch den steigenden Machtanspruch und den Aufstieg von Adolf Hitler. Abschließend lässt sich sagen, dass durch die Richtlinien, die Deutschland durch den Versailler Vertrag auferlegt wurden, der Zuspruch für die rechten Parteien stieg und die Akzeptanz für die Demokratie sank.</p>
+        <button class="btn" id="likeBtn">Gefällt mir (<span id="likeCount">0</span>)</button>
+      </article>
+
+      <aside>
+        <h3>Neueste Artikel</h3>
+        <div class="block"><ul>
+          <li><span class="badge">Neu</span>Die Deutsche Wirtschaftskrise</li>
+          <li>...</li>
+          <li>...</li>
+          <li>...</li>
+        </ul></div>
+
+        <h3>Umfrage</h3>
+        <div class="block">
+          <p>Würdest du lieber digital oder gedruckt lesen?</p>
+          <button class="btn" onclick="vote('digital')">Digital</button>
+          <button class="btn" onclick="vote('paper')">Gedruckt</button>
+          <p id="voteResult" style="margin-top:.8rem;color:#555;"></p>
+        </div>
+
+        <div class="block">
+          <h3>Kontakt</h3>
+          <p>Redaktion: redaktion@schule.de</p>
+          <p>Folge uns: Instagram @schuelerzeitung</p>
+        </div>
+      </aside>
+    </section>
+
+    <footer>
+      <p>© 2026 Schülerzeitung. Alle Rechte vorbehalten. Erstellt von Leon.</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
